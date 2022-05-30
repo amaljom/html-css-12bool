@@ -20,7 +20,11 @@
     flex-direction: row;
     flex-wrap: wrap;
  }
- 
+ .column{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+ }
  [class*="col-"] {
     flex: 0 0 auto;
  }
@@ -468,7 +472,7 @@
  }
  
  
- .center {
+ .center{
     justify-content: center;
     text-align: center;
  }
@@ -480,8 +484,14 @@
  .p-3{
     padding: 30px;
  }
+ .p-2{
+    padding: 20px;
+ }
+ .p-4{
+     padding: 40px;
+ }
  .mt-1{
-     margin-top: 20px;
+    margin-top: 20px;
  }
  .bg-active{
     background-color: rgb(64, 226, 64);
