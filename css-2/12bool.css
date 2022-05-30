@@ -20,6 +20,12 @@
     flex-direction: row;
     flex-wrap: wrap;
  }
+ .distance-aro{
+     justify-content: space-around;
+ }
+ .distance-bet{
+    justify-content: space-between;
+}
  .column{
      display: flex;
      flex-direction: column;
@@ -499,4 +505,6 @@
  .h-1{
      height: 45px;
  }
- 
+ .color-b{
+     background-color: #0222ff;
+ }

@@ -13,7 +13,7 @@
 <body>
     <div class="container-fluid">
         <h1>Nested</h1>
-        <div class="row">
+        <div class="row color-b">
             <div class="col-md-7">
                 <div class="row p-1">
                     <div class="bg-active col-md-3 p-2"></div>
@@ -30,21 +30,40 @@
         </div>
         <h1 class="mt-1">Alignment</h1>
         <div class="center">
-            <div class="center row col-md-6 p-1">start</div>
-            <div class="center row col-md-6 col-md-offset-3 p-1">center</div>
-            <div class="center row col-md-6 col-md-offset-6 p-1">end</div>
+            <div class="center  col-md-6 p-1 color-b">start</div>
+            <div class="center  col-md-6 col-md-offset-3 p-1 color-b">center</div>
+            <div class="center  col-md-6 col-md-offset-6 p-1 color-b">end</div>
         </div>
         <div>
-            <div class="column">
-                <div class="row col-md-6 p-4"></div>
-                <div class="row col-md-6 p-4"></div>
-                <div class="row col-md-6 p-4"></div>
+            <div>
+                <div class="row fl-start">
+                    <div class=" col-md-6 p-4 color-b"></div>
+                    <div class="col-md-6 p-2 color-b">top</div>
+                    
+                </div>
+                <div class="row fl-center">
+                    <div class="col-md-6 p-4 color-b"></div>
+                    <div class="col-md-6 p-2 color-b">middle</div>
+                </div>
+                <div class="row fl-end">
+                    <div class="col-md-6 p-4 color-b"></div>
+                    <div class="col-md-6 p-2 color-b">bottom</div>
+                </div> 
             </div>
-            <div class="column">
-                <div class="row col-md-6 p-2">top</div>
-                <div class="row col-md-6 p-2">middle</div>
-                <div class="row col-md-6 p-2">bottom</div>
-            </div> 
+        </div>
+
+        <h1 class="mt-1">justify content</h1>
+        <h2>Space Around</h2>
+        <div class="row color-b p-3 distance-aro">
+            <div class="col-md-3 p-2 bg-active"></div>
+            <div class="col-md-3 p-2 bg-active"></div>
+            <div class="col-md-3 p-2 bg-active"></div>
+        </div>
+        <h2>Spave between</h2>
+        <div class="row color-b p-3 distance-bet">
+            <div class="col-md-3 p-2 bg-active"></div>
+            <div class="col-md-3 p-2 bg-active"></div>
+            <div class="col-md-3 p-2 bg-active"></div>
         </div>
     </div>
 </body>

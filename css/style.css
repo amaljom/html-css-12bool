@@ -6,7 +6,13 @@ body{
    color: white;
    border: 1px solid white;
 }
-.row{
-   background-color: #0222ff;
-}
 
+.fl-start{
+    align-items: flex-start;
+}
+.fl-center{
+    align-items: center;
+}
+.fl-end{
+    align-items: flex-end;
+}
